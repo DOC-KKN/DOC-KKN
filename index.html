@@ -13,12 +13,6 @@
   <button id="btnShare" onclick="shareMsg()">Share = แชร์</button>
  
 
-  <script src="js/vconsole.min.js"></script> 
-  <script>
-    var vConsole = new VConsole()
-    console.log("Hello World!")
-  </script> 
-
   <script src="https://static.line-scdn.net/liff/edge/versions/2.8.1/sdk.js"></script> 
   <script>
     async function shareMsg() {
@@ -30,20 +24,7 @@
       )
     }
 
-    function logOut() {
-    }
-
-    function closed() {
-    }
-
-    async function scanCode() {
-    }
-
-    function openWindow() {
-    }
-
-    async function getFriendship() {
-    }
+   
 
     async function sendMsg() {
       if(liff.getcontext().type !=="none") {
@@ -51,18 +32,7 @@
     {
        
       
-      
-    }
-
-    function getContext() {
-    }
-
-    async function getUserProfile() {
-    }
-
-    function getEnvironment() {
-      document.getelementbyid("os").append(liff.getos())
-    }
+    
 
     async function main() {
       alert("LINE DOC-KKN")
